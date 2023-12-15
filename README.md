@@ -12,6 +12,7 @@ nota:
 install:
 ```
 pip install flask
+pip install Flask-CORS
 ```
 
 run:

@@ -1,10 +1,12 @@
 from flask import Flask, jsonify
+from flask_cors import CORS
 import os
 import json
 import random
 
 # instancia flask
 app = Flask(__name__)
+CORS(app)
 
 # lista de usuarios
 lst_users_data = []
