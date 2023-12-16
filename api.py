@@ -6,7 +6,7 @@ import random
 
 # instancia flask
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "http://localhost"}})
 
 # lista de usuarios
 lst_users_data = []
