@@ -1,13 +1,4 @@
 # API Rest with Python Flask
-## OS Ubuntu
-
-nota:
-```
-    he agregado u11 y u12
-    para hacer comparaciones.
-
-    pueden ser eliminados si lo deseas.
-```
 
 install:
 ```
@@ -17,7 +8,7 @@ pip install Flask-CORS
 
 run:
 ```
-python3 api.py
+python api.py
 ```
 
 endpoints:
