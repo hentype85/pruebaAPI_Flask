@@ -34,7 +34,6 @@ for archivo in os.listdir(json_folder):
 def get_users():
     if not lst_users_data:
         return jsonify({"error": "No users available"}), 404
-
     return jsonify(lst_users_data), 200
 
 
