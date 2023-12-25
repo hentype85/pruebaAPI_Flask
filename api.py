@@ -6,7 +6,7 @@ import random
 
 # instancia flask
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "http://localhost"}})
+CORS(app, resources={r"/*": {"origins": "http://localhost:3000"}})
 
 # lista de usuarios
 lst_users_data = []
@@ -69,6 +69,6 @@ def get_user_with_min_followers():
 
 if __name__ == '__main__':
     h = "localhost"
-    p= 3000
+    p = 3000
     app.run(host=h, port=p)
 
